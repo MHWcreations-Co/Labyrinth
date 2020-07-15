@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
+=======
+  <component name="com.jetbrains.rider.android.RiderAndroidMiscFileCreationComponent">
+    <option name="ENSURE_MISC_FILE_EXISTS" value="true" />
+>>>>>>> 13efd0851406c8ae6ef6855ede481155bb7ccb59
   </component>
 </project>

@@ -16,7 +16,11 @@
     <explicitExcludes>
       <Path>.idea</Path>
       <Path>Library</Path>
+<<<<<<< HEAD
       <Path>Temp</Path>
+=======
+      <Path>Logs</Path>
+>>>>>>> 13efd0851406c8ae6ef6855ede481155bb7ccb59
       <Path>obj</Path>
     </explicitExcludes>
   </component>
