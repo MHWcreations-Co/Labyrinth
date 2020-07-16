@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FalleObject : MonoBehaviour
+public class TrapObject : MonoBehaviour
 {
     [SerializeField] private int health = 3;
 

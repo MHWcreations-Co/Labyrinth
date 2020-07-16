@@ -19,9 +19,9 @@
         </e>
         <e p="scripts" t="Include">
           <e p="DeathManager.cs" t="Include" />
-          <e p="FalleObject.cs" t="Include" />
           <e p="PlayerChecker.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="TrapObject.cs" t="Include" />
         </e>
       </e>
       <e p="Labyrinth.sln" t="IncludeFlat" />

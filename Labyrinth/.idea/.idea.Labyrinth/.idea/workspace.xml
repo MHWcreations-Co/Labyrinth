@@ -10,31 +10,40 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+    </expand>
+    <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/dev" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-    </expand>
-    <select />
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="" />
+    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/FalleObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/TrapObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/FalleObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/TrapObject.cs.meta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/scripts/DeathtrapScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/TrapObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/scripts/DeathtrapScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/FalleObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/TrapObject.cs" />
       </list>
     </option>
   </component>
@@ -55,7 +64,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -82,7 +91,16 @@
       <option name="presentableId" value="Default" />
       <updated>1594831731856</updated>
       <workItem from="1594831743754" duration="3781000" />
+      <workItem from="1594885081833" duration="1311000" />
     </task>
+    <task id="LOCAL-00001" summary="Closed Rider">
+      <created>1594885182699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594885182700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,19 +113,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Closed Rider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Closed Rider" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="845" y="388" key="SettingsEditor" timestamp="1594831878337">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="917" y="296" key="SettingsEditor" timestamp="1594885497280">
+      <screen x="108" y="0" width="2452" height="1067" />
     </state>
     <state x="845" y="388" key="SettingsEditor/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1594831878337" />
+    <state x="917" y="296" key="SettingsEditor/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1594885497280" />
+    <state x="997" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1594885647504">
+      <screen x="108" y="0" width="2452" height="1067" />
+    </state>
+    <state x="997" y="232" width="672" height="678" key="search.everywhere.popup/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1594885647504" />
   </component>
 </project>
