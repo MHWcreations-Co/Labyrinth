@@ -20,11 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/FalleObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/TrapObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/FalleObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/TrapObject.cs.meta" afterDir="false" />
-    </list>
+    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="FalleObject =&gt; TrapObject" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594831731856</updated>
       <workItem from="1594831743754" duration="3781000" />
-      <workItem from="1594885081833" duration="1311000" />
+      <workItem from="1594885081833" duration="2027000" />
     </task>
     <task id="LOCAL-00001" summary="Closed Rider">
       <created>1594885182699</created>
@@ -100,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594885182700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FalleObject =&gt; TrapObject">
+      <created>1594889288678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594889288678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Closed Rider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Closed Rider" />
+    <MESSAGE value="FalleObject =&gt; TrapObject" />
+    <option name="LAST_COMMIT_MESSAGE" value="FalleObject =&gt; TrapObject" />
   </component>
   <component name="WindowStateProjectService">
     <state x="917" y="296" key="SettingsEditor" timestamp="1594885497280">
@@ -143,6 +147,10 @@
     </state>
     <state x="845" y="388" key="SettingsEditor/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1594831878337" />
     <state x="917" y="296" key="SettingsEditor/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1594885497280" />
+    <state x="927" y="254" key="Vcs.Push.Dialog.v2" timestamp="1594889292455">
+      <screen x="108" y="0" width="2452" height="1067" />
+    </state>
+    <state x="927" y="254" key="Vcs.Push.Dialog.v2/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1594889292455" />
     <state x="997" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1594885647504">
       <screen x="108" y="0" width="2452" height="1067" />
     </state>
