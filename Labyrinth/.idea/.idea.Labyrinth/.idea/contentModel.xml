@@ -20,7 +20,6 @@
         <e p="scripts" t="Include">
           <e p="DeathManager.cs" t="Include" />
           <e p="DeathtrapScript.cs" t="Include" />
-          <e p="FollowerMovement.cs" t="Include" />
           <e p="PlayerChecker.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="TrapObject.cs" t="Include" />
