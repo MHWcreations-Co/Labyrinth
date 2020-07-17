@@ -21,25 +21,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="Edited DeathTrapScript.cs">
-      <change afterPath="$PROJECT_DIR$/Assets/materials/green.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/materials/green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/FollowerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/Long Plate.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/Long Plate.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/Row.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/Row.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/Start_Corner.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/Start_Corner.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/Wall.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/Wall.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/obctycle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/obctycle/Falle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Building/obctycle/Falle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/materials/Orange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/materials/Orange.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +38,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/scripts/DeathTrapScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/FollowerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/TrapObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -63,6 +50,7 @@
         <option value="$PROJECT_DIR$/Assets/scripts/FalleObject.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/TrapObject.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/DeathTrapScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/FollowerMovement.cs" />
       </list>
     </option>
   </component>
