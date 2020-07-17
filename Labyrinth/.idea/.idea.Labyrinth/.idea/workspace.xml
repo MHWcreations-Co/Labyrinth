@@ -20,10 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="Edited DeathTrapScript.cs">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="Edited DeathTrapScript.cs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,23 +247,6 @@
     <state x="997" y="232" width="672" height="678" key="search.everywhere.popup/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1594885647504" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/scripts/PlayerMovement.cs</url>
-          <line>35</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/scripts/PlayerMovement.cs" initialLine="35">
-            <startOffsets>
-              <option value="1187" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1188" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
         <watch expression="_rig.velocity" />
