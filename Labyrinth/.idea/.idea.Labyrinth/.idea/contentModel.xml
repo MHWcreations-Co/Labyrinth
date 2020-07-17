@@ -18,6 +18,8 @@
           </e>
         </e>
         <e p="scripts" t="Include">
+          <e p="CharacterController.cs" t="Include" />
+          <e p="CharacterFollower.cs" t="Include" />
           <e p="DeathManager.cs" t="Include" />
           <e p="DeathtrapScript.cs" t="Include" />
           <e p="PlayerChecker.cs" t="Include" />
