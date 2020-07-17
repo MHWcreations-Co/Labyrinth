@@ -20,7 +20,27 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="Edited DeathTrapScript.cs" />
+    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="Edited DeathTrapScript.cs">
+      <change afterPath="$PROJECT_DIR$/Assets/materials/green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/materials/green.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/Long Plate.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/Long Plate.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/Row.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/Row.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/Start_Corner.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/Start_Corner.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/Wall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/Wall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/obctycle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/obctycle/Falle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Building/obctycle/Falle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/materials/Orange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/materials/Orange.mat" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,12 +67,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1ejOqm26pDJ5YKbTpoc4kUtqVzw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.56908345" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.4876881" />
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -157,6 +180,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Closed Rider" />
     <MESSAGE value="FalleObject =&gt; TrapObject" />
