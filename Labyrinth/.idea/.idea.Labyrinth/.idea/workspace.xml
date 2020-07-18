@@ -21,13 +21,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="Edited DeathTrapScript.cs">
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/CharacterController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Player/animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Player/animations/Hands.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Player/animations/Hands.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Player/animations/Idle_PlayerAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Player/animations/Idle_PlayerAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Player/animations/Walk_PlayerAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Player/animations/Walk_PlayerAnimation.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/FollowerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/CharacterFollower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/FollowerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/CharacterFollower.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Player/hand.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Player/hand.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/CharacterController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +46,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/scripts/CharacterFollower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/DeathTrapScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/TrapObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/CharacterController.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/TrapObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,6 +118,7 @@
       <workItem from="1594885081833" duration="2222000" />
       <workItem from="1595001157223" duration="1012000" />
       <workItem from="1595012425850" duration="3099000" />
+      <workItem from="1595049765923" duration="2221000" />
     </task>
     <task id="LOCAL-00001" summary="Closed Rider">
       <created>1594885182699</created>
@@ -264,6 +270,10 @@
       <screen x="108" y="0" width="2452" height="1067" />
     </state>
     <state x="927" y="254" key="Vcs.Push.Dialog.v2/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1594889292455" />
+    <state x="1144" y="448" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595051892657">
+      <screen x="108" y="0" width="2452" height="1067" />
+    </state>
+    <state x="1144" y="448" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1595051892657" />
     <state x="997" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1594885647504">
       <screen x="108" y="0" width="2452" height="1067" />
     </state>

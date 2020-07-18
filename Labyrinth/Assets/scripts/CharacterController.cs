@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
@@ -11,16 +8,19 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private float sensitivity = 50;
 
     private Vector3 _moveDirection = Vector3.zero;
+    private float _moveIndicator;
 
     //public GameObject cameraObject;
 
     private UnityEngine.CharacterController _characterController;
+    private Animator anim;
 
     private float _rotationX = 0;
 
     void Awake()
     {
         _characterController = gameObject.GetComponent<UnityEngine.CharacterController>();
+        anim = gameObject.transform.GetChild(2).gameObject.GetComponent<Animator>();
     }
 
     private void Start()
@@ -95,5 +95,9 @@ public class CharacterController : MonoBehaviour
         _moveDirection.y -= gravity * Time.fixedDeltaTime;
 
         _characterController.Move(_moveDirection * Time.fixedDeltaTime);
+
+        _moveIndicator = Mathf.Abs(_moveDirection.x) + Mathf.Abs(_moveDirection.z);
+
+        anim.SetFloat("Walk", _moveIndicator);
     }
 }
