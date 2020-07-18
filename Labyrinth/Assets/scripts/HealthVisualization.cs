@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,50 +6,25 @@ using UnityEngine;
 public class HealthVisualization : MonoBehaviour
 {
     private GameObject _bigBrother;
-    private static GameObject[] _healthIndicators;
 
+    private static List<GameObject> _healthIndicators = new List<GameObject>();
+
+//_bigBrother
     private void Awake()
     {
-        _bigBrother = transform.GetChild(1).gameObject;
-
-        for (int i = 0; i < _healthIndicators.Length; i++)
+        for (int i = 0; i < 3; i++)
         {
-            _healthIndicators[i] = _bigBrother.transform.GetChild(i).gameObject;
+            _healthIndicators.Add(gameObject.transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.transform
+                .GetChild(i).gameObject);
         }
     }
 
     public static void HealthRefresher(int health)
     {
-        switch (health)
+        for (int i = 0; i < _healthIndicators.Count; i++)
         {
-            case 3:
-            {
-                _healthIndicators[0].SetActive(true);
-                _healthIndicators[1].SetActive(true);
-                _healthIndicators[2].SetActive(true);
-            }
-                break;
-            case 2:
-            {
-                _healthIndicators[0].SetActive(true);
-                _healthIndicators[1].SetActive(true);
-                _healthIndicators[2].SetActive(false);
-            }
-                break;
-            case 1:
-            {
-                _healthIndicators[0].SetActive(true);
-                _healthIndicators[1].SetActive(false);
-                _healthIndicators[2].SetActive(false);
-            }
-                break;
-            case 0:
-            {
-                _healthIndicators[0].SetActive(false);
-                _healthIndicators[1].SetActive(false);
-                _healthIndicators[2].SetActive(false);
-            }
-                break;
+            bool value = i < health;
+            _healthIndicators[i].SetActive(value);
         }
     }
 }

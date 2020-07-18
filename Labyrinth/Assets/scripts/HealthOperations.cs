@@ -1,23 +1,36 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 
 public class HealthOperations : MonoBehaviour
 {
+    PlayerHealthOperations pHO = new PlayerHealthOperations();
+    EnemyHealthOperations eHO = new EnemyHealthOperations();
+
+    private void Awake()
+    {
+    }
+
     public static void DecreaseHealth(GameObject target, int currentHealth, int quantity)
     {
-        
-        currentHealth -= quantity;
-
         if (currentHealth <= 0)
         {
             DeathOperations.KillTarget(target);
         }
+        
+        //int nextHealth = currentHealth - quantity;
 
         if (target.CompareTag("Player"))
         {
-            HealthVisualization.HealthRefresher(currentHealth);
+            PlayerManager.CurrentHealth -= quantity;
+            HealthVisualization.HealthRefresher(PlayerManager.CurrentHealth);
+        }
+        else
+        {
+            //todo: create EnemyManager class
+            //target.GetComponent<EnemyManager>().health
         }
     }
 

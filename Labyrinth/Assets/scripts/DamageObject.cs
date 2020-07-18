@@ -1,20 +1,20 @@
-﻿using System;
+﻿using Player;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class DamageObject : MonoBehaviour
 {
-    [SerializeField] [Range(1, 10)] private int damage;
+    [SerializeField] [Range(1, 5)] private int damage = 1;
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == PlayerManager.Player)
+        Debug.Log("Collided");
+        if (other.gameObject.CompareTag("Player"))
         {
             HealthOperations.DecreaseHealth(other.gameObject, PlayerManager.CurrentHealth, damage);
         }
         else if (other.gameObject.CompareTag("Entity"))
         {
-            HealthOperations.DecreaseHealth(other.gameObject, 10, damage);
+           Debug.Log("Entity detected"); //HealthOperations.DecreaseHealth(other.gameObject, 10, damage);
         }
     }
 }

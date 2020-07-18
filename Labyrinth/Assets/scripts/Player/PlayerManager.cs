@@ -1,20 +1,27 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+namespace Player
 {
-    public static int CurrentHealth;
-    public static int MaxHealth = 3;
-
-    public static GameObject Player;
-
-    private void Awake()
+    public class PlayerManager : MonoBehaviour
     {
-        Player = GameObject.FindWithTag("Player");
-    }
+        public static int CurrentHealth;
+        public static int MaxHealth = 3;
 
-    private void Start()
-    {
-        CurrentHealth = MaxHealth;
+        public static GameObject Player;
+
+        private void Awake()
+        {
+            Player = GameObject.FindWithTag("Player");
+        }
+
+        private void Start()
+        {
+            CurrentHealth = MaxHealth;
+        }
+
+        private void Update()
+        {
+            Debug.Log(CurrentHealth);
+        }
     }
 }
