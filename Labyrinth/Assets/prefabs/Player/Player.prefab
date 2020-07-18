@@ -445,7 +445,11 @@ MonoBehaviour:
   characterSpeed: 6
   gravity: 20
   jumpSpeed: 10
-  sensitivity: 50
+  sensitivityX: 50
+  sensitivityY: 20
+  clampTop: 1500
+  clampBottom: 20
+  cameraFixed: 1
 --- !u!1001 &1276879727080879228
 PrefabInstance:
   m_ObjectHideFlags: 0
