@@ -18,13 +18,20 @@
           </e>
         </e>
         <e p="scripts" t="Include">
-          <e p="CharacterController.cs" t="Include" />
-          <e p="CharacterFollower.cs" t="Include" />
-          <e p="DeathManager.cs" t="Include" />
+          <e p="DamageObject.cs" t="Include" />
+          <e p="DeathOperations.cs" t="Include" />
           <e p="DeathtrapScript.cs" t="Include" />
-          <e p="PlayerChecker.cs" t="Include" />
-          <e p="PlayerMovement.cs" t="Include" />
-          <e p="TrapObject.cs" t="Include" />
+          <e p="EnemyHealthOperations.cs" t="Include" />
+          <e p="HealthOperations.cs" t="Include" />
+          <e p="healthVisualization.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="CharacterFollower.cs" t="Include" />
+            <e p="IfPlayerFallenDownChecker.cs" t="Include" />
+            <e p="PlayerChecker.cs" t="Include" />
+            <e p="PlayerManager.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+          </e>
+          <e p="PlayerHealthOperations.cs" t="Include" />
         </e>
       </e>
       <e p="Labyrinth.sln" t="IncludeFlat" />
