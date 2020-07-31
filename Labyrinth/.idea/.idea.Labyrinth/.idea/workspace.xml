@@ -20,19 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="Edited DeathTrapScript.cs">
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/PlayerHealthOperations.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Building/obctycle/Falle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Building/obctycle/Falle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/DamageObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/DamageObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/HealthOperations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/HealthOperations.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/HealthVisualization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/HealthVisualization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Player/IfPlayerFallenDownChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Player/IfPlayerFallenDownChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Player/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Player/PlayerManager.cs" afterDir="false" />
-    </list>
+    <list default="true" id="c6cedd04-5024-4a9c-9f79-d2d1d5e3ed16" name="Default Changelist" comment="Edited DeathTrapScript.cs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,19 +29,23 @@
   <component name="Git.Settings">
     <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/HealthOperations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/DeathTrapScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/DeathOperations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/EnemyHealthOperations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/HealthVisualization.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/PlayerHealthOperations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/DamageObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/Player/PlayerChecker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/Player/CharacterFollower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/Player/IfPlayerFallenDownChecker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/Player/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///TrapObject.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrapObject.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///TrapObject.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Character.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Enemy.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///TrapObject.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///TrapObject.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrapObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Character.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Enemy.cs.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,10 +109,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9380">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="9380" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -276,6 +268,14 @@
       <screen x="108" y="0" width="2452" height="1067" />
     </state>
     <state width="2409" height="440" key="GridCell.Tab.3.right/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1595092770829" />
+    <state x="347" y="89" key="MergeDialog" timestamp="1596199353360">
+      <screen x="108" y="0" width="2452" height="1067" />
+    </state>
+    <state x="347" y="89" key="MergeDialog/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1596199353360" />
+    <state x="974" y="295" key="MultipleFileMergeDialog" timestamp="1596199369862">
+      <screen x="108" y="0" width="2452" height="1067" />
+    </state>
+    <state x="974" y="295" key="MultipleFileMergeDialog/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1596199369862" />
     <state x="1053" y="244" key="RollbackChangesDialog" timestamp="1595090089776">
       <screen x="108" y="0" width="2452" height="1067" />
     </state>
@@ -289,14 +289,14 @@
       <screen x="108" y="0" width="2452" height="1067" />
     </state>
     <state x="201" y="93" width="2267" height="881" key="VCS.FileHistoryDialog/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1595097930424" />
-    <state x="927" y="254" key="Vcs.Push.Dialog.v2" timestamp="1594889292455">
+    <state x="927" y="254" key="Vcs.Push.Dialog.v2" timestamp="1596199362005">
       <screen x="108" y="0" width="2452" height="1067" />
     </state>
-    <state x="927" y="254" key="Vcs.Push.Dialog.v2/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1594889292455" />
-    <state x="1144" y="448" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595051892657">
+    <state x="927" y="254" key="Vcs.Push.Dialog.v2/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1596199362005" />
+    <state x="1144" y="448" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596199310082">
       <screen x="108" y="0" width="2452" height="1067" />
     </state>
-    <state x="1144" y="448" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1595051892657" />
+    <state x="1144" y="448" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/108.0.2452.1067/3840.194.1536.920@108.0.2452.1067" timestamp="1596199310082" />
     <state x="997" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1594885647504">
       <screen x="108" y="0" width="2452" height="1067" />
     </state>

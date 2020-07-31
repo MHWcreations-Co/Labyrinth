@@ -1,16 +1,15 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DeathTrapScript : MonoBehaviour
+public class TrapObject : MonoBehaviour
 {
     [SerializeField] private int health = 3;
 
-    // Start is called before the first frame update
     void Start()
     {
     }
 
-    // Update is called once per frame
     private void OnCollisionEnter(Collision other)
     {
         health = health - 1;
