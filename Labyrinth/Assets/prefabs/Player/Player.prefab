@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7278371841114857605}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4143623613245827941}
   - component: {fileID: 6948337532145417581}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8719582637565682298}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4267260687237718653}
   - component: {fileID: 250218976746652195}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8424425554134806962}
   - component: {fileID: 7871651849606519456}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9128748010462184317}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 8254811479951108205}
   - component: {fileID: 8254811479951108204}
   - component: {fileID: 8254811479951108207}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CubeVisual
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -338,10 +338,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8254811481366413120}
-  - component: {fileID: 672555583}
-  - component: {fileID: 672555584}
-  - component: {fileID: 6606164957567987204}
-  m_Layer: 0
+  - component: {fileID: 488115997282301044}
+  - component: {fileID: 56511459}
+  - component: {fileID: 56511458}
+  - component: {fileID: 56511463}
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -365,25 +366,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!143 &672555583
-CharacterController:
+--- !u!136 &488115997282301044
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8254811481366413123}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a207e9ad55c339446a9522e5f4d63bf3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
+  m_Radius: 0.4992119
+  m_Height: 1.1524482
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.074867845, z: -0.001132369}
+--- !u!54 &56511459
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8254811481366413123}
   serializedVersion: 2
-  m_Height: 1.14
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: -0.075, z: 0}
---- !u!114 &672555584
+  m_Mass: 0.03
+  m_Drag: 1
+  m_AngularDrag: 3
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &56511458
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -392,18 +405,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8254811481366413123}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99db4505d29a0c140bad3080ceaabb81, type: 3}
+  m_Script: {fileID: 11500000, guid: d86722bf17aa4ce0a5d6dc63e28a4963, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterSpeed: 6
-  gravity: 20
-  jumpSpeed: 10
-  sensitivityX: 50
-  sensitivityY: 20
-  clampTop: 1500
-  clampBottom: 20
-  cameraFixed: 1
---- !u!114 &6606164957567987204
+  _rigidbody: {fileID: 56511459}
+  jumpSpeed: 4
+  noJumpTag: noJump
+--- !u!114 &56511463
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -412,9 +420,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8254811481366413123}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cf50b2c4fe119e4ca5b9c2fed2da30c, type: 3}
+  m_Script: {fileID: 11500000, guid: 94871c347917322439a093732fb9c439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Speed: 3
 --- !u!1001 &1276879727080879228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -426,6 +435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Leg (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673337367311878300, guid: d27fda04583438e45aedb29ed1a76566,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7554294648436724471, guid: d27fda04583438e45aedb29ed1a76566,
         type: 3}
@@ -502,6 +516,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hand (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 69657680477807810, guid: d55f1030a9a3d07408f927b037bb0b09,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1072347279802636306, guid: d55f1030a9a3d07408f927b037bb0b09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -561,6 +580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eye
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486548544565719646, guid: f3808207bd5a86847853093142f50da4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8599102737046607228, guid: f3808207bd5a86847853093142f50da4,
         type: 3}
@@ -637,6 +661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leg
       objectReference: {fileID: 0}
+    - target: {fileID: 5673337367311878300, guid: d27fda04583438e45aedb29ed1a76566,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7554294648436724471, guid: d27fda04583438e45aedb29ed1a76566,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -712,6 +741,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hand
       objectReference: {fileID: 0}
+    - target: {fileID: 69657680477807810, guid: d55f1030a9a3d07408f927b037bb0b09,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1072347279802636306, guid: d55f1030a9a3d07408f927b037bb0b09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -786,6 +820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eye (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486548544565719646, guid: f3808207bd5a86847853093142f50da4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8599102737046607228, guid: f3808207bd5a86847853093142f50da4,
         type: 3}
